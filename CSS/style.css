@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-family: "Rubik", sans-serif;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #3E8989;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    background: #3E8989;
+}
+
+.nav__content {
+    padding: 37px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__link {
+    margin-left: 30px;
+    font-weight: 500;
+    transition: 500ms;
+    color: #fff;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.content {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 780px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content__Trip {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content__title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.content__more {
+    background: #B4436C;
+    border-radius: 30px;
+    color: #FFF;
+    transition: 500ms;
+    padding: 14px 78px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.content__more:hover {
+    background: #fff;
+    color: #B4436C;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__img {
+    width: 545px;
+    height: 261px;
+    margin-right: 20px;
+}
+
+.container__df {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.container__db {
+    display: block;
+    font-size: 18px;
+}
+
+.container__about {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #3E8989;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.container__content1 {
+    margin-bottom: 20px;
+    margin-top: 9px;
+}
+
+.container__catalog {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #3E8989;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card__img {
+    background: #EFEFEF;
+    margin-bottom: 30px;
+    max-width: 260px;
+    width: 100%;
+}
+
+.card__img1 {
+    padding: 1px 32px;
+    margin-right: 20px;
+}
+
+.card__img2 {
+    padding: 77px 22px;
+    margin-right: 20px;
+    
+}
+
+.card__img3 {
+    padding: 75px 1px;
+    margin-right: 20px;
+}
+
+.card__img4 {
+    padding: 19px 0;
+}
+
+.main__catalog {
+    font-family: "Inter", sans-serif;
+}
+
+.card {
+    display: flex;
+}
+
+.a__clothes {
+    color: #000;
+    transition: 500ms;
+    text-align: center;
+    font-size: 24px;
+}
+
+.a__clothes:hover {
+    color: #B4436C;
+}
+
+.main__contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 166px;
+}
+
+.container__contacts {
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #3E8989;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.df {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.nomer {
+    color: #000;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.sb {
+    max-width: 545px;
+    width: 100%;
+}
+
+.footer {
+    background: #3E8989;
+    margin-top: 104px;
+    padding: 32px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__about {
+    height: 150px;
+    display: flex;
+}
+
+.menu__link2 {
+    color: #fff;
+}
+
+.container__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.container__2022 {
+    align-self: end;
+    margin-left: 217px;
+    margin-right: 190px;
+    color: #fff;
+}
+
+form {
+    display: flex;
+}
+
+form * {
+    height: 35px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.form *::placeholder {
+    color: #898989;
+}
+
+.form__btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #295E5E;
+    color: #fff;
+    padding: 9px 14px;
+}
+
+.form__search {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 8px 20px;
+    width: 196px;
+}
